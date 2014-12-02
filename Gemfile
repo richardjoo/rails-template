@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1.1'
+ruby '2.2.0'
+
+gem 'rails', '4.1.5'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -30,7 +32,7 @@ end
 
 group :development, :test do
   gem 'dotenv-rails'
-#  gem 'i18n-tasks'
+  gem 'i18n-tasks', '~> 0.7.8'
 #  gem 'rspec-rails'
 #  gem 'rubocop',       require: false
 #  gem 'rubocop-rspec', require: false

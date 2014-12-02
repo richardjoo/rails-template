@@ -3,12 +3,15 @@ rails-template [![build status][code climate image]][code climate] [![code quali
 
 my rails app base
 
-# Master Branch:
-A rails 4.1.1 application
+## Maintenance
+  README updated at 12/2/2014
+
+## Master Branch:
+  A rails 4.1.5 application
 
 ## Pre-requisites
-* ruby 2.1.1
-* bundler
+  * ruby 2.1.5
+  * bundler
 
 <!-- links -->
 [code climate]: https://codeclimate.com/github/richardjoo/rails-template "build status"
