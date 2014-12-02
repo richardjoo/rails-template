@@ -19,17 +19,17 @@ group :production, :staging do
 end
 
 group :development do
-#  gem 'better_errors'
-#  gem 'binding_of_caller'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 #  gem 'foreman'
-#  gem 'pry-byebug'
-#  gem 'travis'
-#  gem 'yard'
-#  gem 'spring'
+  gem 'pry-byebug'
+  gem 'travis'
+  gem 'yard'
+  gem 'spring'
 end
 
 group :development, :test do
-#  gem 'dotenv-rails'
+  gem 'dotenv-rails'
 #  gem 'i18n-tasks'
 #  gem 'rspec-rails'
 #  gem 'rubocop',       require: false
