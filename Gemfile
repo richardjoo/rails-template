@@ -33,14 +33,14 @@ end
 group :development, :test do
   gem 'dotenv-rails'
   gem 'i18n-tasks', '~> 0.7.8'
-#  gem 'rspec-rails'
-#  gem 'rubocop',       require: false
-#  gem 'rubocop-rspec', require: false
+  gem 'rspec-rails'
+  gem 'rubocop',       require: false
+  gem 'rubocop-rspec', require: false
 end
 
 group :test do
 #  gem 'capybara'
-#  gem 'codeclimate-test-reporter', require: false
+  gem 'codeclimate-test-reporter', require: false
 #  gem 'database_cleaner'
 #  gem 'factory_girl_rails'
 #  gem 'launchy'
