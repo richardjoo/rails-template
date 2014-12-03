@@ -1,4 +1,4 @@
-require "codeclimate-test-reporter"
+require 'codeclimate-test-reporter'
 ENV['CODECLIMATE_REPO_TOKEN'] = 'bbf25b2dbd2742351db2d0a746ff87f37b1bfdf700fb00e7f873916c43b9b5d8'
 CodeClimate::TestReporter.start
 
