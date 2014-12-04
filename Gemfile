@@ -50,6 +50,7 @@ group :test do
 #  gem 'syntax'
 #  gem 'timecop'
 #  gem 'validation_matcher'
+# gem 'shoulda'
 end
 
 group :doc do
