@@ -4,13 +4,13 @@ rails-template [![build status][code climate image]][code climate] [![code quali
 my rails app base
 
 ## Maintenance
-  README updated at 12/2/2014
+  README updated on Friday, 2015-08-21
 
 ## Master Branch:
-  A rails 4.1.5 application
+  A rails 4.2.3 application
 
 ## Pre-requisites
-  * ruby 2.1.5
+  * ruby 2.2.2
   * bundler
 
 <!-- links -->
