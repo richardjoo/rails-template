@@ -4,7 +4,7 @@ rails-template [![build status][code climate image]][code climate] [![code quali
 my rails app base
 
 ## Maintenance
-  README updated on Friday, 2015-08-21
+  README updated on Friday, 2015-08-23
 
 ## Master Branch:
   A rails 4.2.3 application
@@ -12,6 +12,10 @@ my rails app base
 ## Pre-requisites
   * ruby 2.2.2
   * bundler
+
+## Work Logs
+  * Work logs can be found under
+    * vendor/project/worklog.md
 
 <!-- links -->
 [code climate]: https://codeclimate.com/github/richardjoo/rails-template "build status"

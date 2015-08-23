@@ -4,30 +4,29 @@ ruby '2.2.2'
 
 gem 'rails', '4.2.3'
 gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
-
 group :production, :staging do
-#  gem 'dalli'
-#  gem 'memcachier'
-#  gem 'newrelic_rpm'
-#  gem 'rails_12factor'
-#  gem 'rollbar'
-#  gem 'unicorn'
+  # gem 'dalli'
+  # gem 'memcachier'
+  # gem 'newrelic_rpm'
+  # gem 'rails_12factor'
+  # gem 'rollbar'
+  # gem 'unicorn'
 end
 
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-#  gem 'foreman'
   gem 'pry-byebug'
   gem 'travis'
   gem 'yard'
-  gem 'spring'
+  # gem 'capistrano-rails'
+  #  gem 'foreman'
 end
 
 group :development, :test do
@@ -36,21 +35,24 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'rubocop',       require: false
   gem 'rubocop-rspec', require: false
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 
 group :test do
-#  gem 'capybara'
+  # gem 'capybara'
   gem 'codeclimate-test-reporter', require: false
-#  gem 'database_cleaner'
-#  gem 'factory_girl_rails'
-#  gem 'launchy'
-#  gem 'poltergeist'
-#  gem 'rspec-its'
-#  gem 'simplecov',                 require: false
-#  gem 'syntax'
-#  gem 'timecop'
-#  gem 'validation_matcher'
-# gem 'shoulda'
+  # gem 'database_cleaner'
+  # gem 'factory_girl_rails'
+  # gem 'launchy'
+  # gem 'poltergeist'
+  # gem 'rspec-its'
+  # gem 'simplecov', require: false
+  # gem 'syntax'
+  # gem 'timecop'
+  # gem 'validation_matcher'
+  # gem 'shoulda'
 end
 
 group :doc do
