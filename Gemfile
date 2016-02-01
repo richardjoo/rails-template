@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.2.3'
 
 gem 'rails', '4.2.3'
 gem 'sqlite3'
@@ -26,6 +26,7 @@ group :development do
   gem 'pry-byebug'
   gem 'travis'
   gem 'yard'
+  gem 'web-console', '~> 2.0'
   # gem 'capistrano-rails'
   #  gem 'foreman'
 end
@@ -37,7 +38,6 @@ group :development, :test do
   gem 'rubocop',       require: false
   gem 'rubocop-rspec', require: false
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 
